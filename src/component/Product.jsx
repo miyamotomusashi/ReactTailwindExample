@@ -1,8 +1,14 @@
+import ProductItem from "./ProductItem"
 
 
 const Product = () => {
   return (
-    <div>Product</div>
+    <div className="grid grid-cols-3 gap-10">
+        <ProductItem/>
+        <ProductItem/>
+        <ProductItem/>
+
+    </div>
   )
 }
 
